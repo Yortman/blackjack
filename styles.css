@@ -15,10 +15,11 @@ body {
     background-image: url("images/blackjack.jpg");
     background-color: #a34d32;
     background-repeat: no-repeat;
+    background-size: cover;
+    
     color: #fad0bc;
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
-    width: 0 auto;
     font-weight: bold;
 }
 
@@ -36,6 +37,7 @@ h1 {
 }
 
 button {
+    display: block;
     color: #a34d32;
     width: 150px;
     background-color: #fad0bc;
@@ -45,7 +47,6 @@ button {
     padding: 7px 0;
     border: none;
     border-radius: 3px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    margin: 4px auto;
 }
 
